@@ -1,0 +1,16 @@
+[project]
+name = "tibs"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "banksia>=0.1.0",
+    "fastcore>=1.8.16",
+    "matplotlib>=3.10.7",
+    "numpy>=2.3.5",
+    "polars>=1.35.2",
+]
+
+[tool.uv.sources]
+banksia = { git = "https://github.com/matt-humphrey/banksia.git" }
